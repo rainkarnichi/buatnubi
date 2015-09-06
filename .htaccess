@@ -5,6 +5,8 @@ RewriteEngine on
 # Set the RewriteBase to:
 # RewriteBase /mysite
 
+RewriteBase /
+
 # Yellow dynamic pages
 
 RewriteCond %{REQUEST_FILENAME} !-f
