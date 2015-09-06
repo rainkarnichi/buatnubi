@@ -1,0 +1,4 @@
+<?php $yellow->snippet("header") ?>
+<?php $yellow->snippet("content-sidebar") ?>
+<?php $yellow->snippet(count($yellow->page->getPages()) ? "content-wikipages" : "content-wiki") ?>
+<?php $yellow->snippet("footer") ?>

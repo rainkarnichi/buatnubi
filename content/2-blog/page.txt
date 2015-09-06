@@ -1,0 +1,7 @@
+---
+Title: Blog
+Template: blogpages
+Description: Blog
+Navigation: navigation-search
+---
+This page is automatically generated.

@@ -1,0 +1,5 @@
+---
+Title: Wiki page
+Tag: Example
+---
+This is a new wiki page.

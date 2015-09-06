@@ -1,0 +1,19 @@
+---
+Title: Blog page
+Published: 2015-09-06 20:57:21
+Author: Yellow
+Tag: Example
+---
+This is a new blog page.
+
+```html
+    <body>
+    <p>Hello world!</p>
+    </body>
+```
+    
+```html:1
+    <body>
+    <p>Hello world!</p>
+    </body>
+```

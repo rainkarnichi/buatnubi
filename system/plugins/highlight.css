@@ -1,0 +1,58 @@
+/* Highlight plugin 0.5.5 */
+
+.content .highlight tr, .content .highlight td { padding:0; border:none; }
+.content .highlight td.ln pre { padding-right:0.5em; text-align:right; }
+.content .highlight td.de1 pre { padding-left:0.5em; }
+
+.css { color:#000; }
+.css .ln { color:#bbb; }
+.css .kw1 { color:#c00; }
+.css .co1 { color:#0a0; }
+.css .coMULTI { color:#0a0; }
+
+.cpp { color:#000; }
+.cpp .ln { color:#bbb; }
+.cpp .kw1 { color:#00d; }
+.cpp .kw2 { color:#00d; }
+.cpp .kw3 { color:#00d; }
+.cpp .kw4 { color:#00d; }
+.cpp .co2 { color:#00d; }
+.cpp .st0 { color:#c00; }
+.cpp .nu0 { color:#c00; }
+.cpp .nu6 { color:#c00; }
+.cpp .nu8 { color:#c00; }
+.cpp .nu12 { color:#c00; }
+.cpp .co1 { color:#0a0; }
+.cpp .coMULTI { color:#0a0; }
+
+.html { color:#000; }
+.html .ln { color:#bbb; }
+.html .sc2 { color:#b0b; }
+.html .kw2 { color:#b0b; }
+.html .kw3 { color:#c00; }
+.html .st0 { color:#00d; }
+.html .sc0 { color:#777; }
+.html .sc-1 { color:#0a0; }
+
+.javascript { color:#000; }
+.javascript .ln { color:#bbb; }
+.javascript .kw1 { color:#b0b; }
+.javascript .kw2 { color:#b0b; }
+.javascript .kw3 { color:#b0b; }
+.javascript .st0 { color:#c00; }
+.javascript .nu0 { color:#00d; }
+.javascript .co1 { color:#0a0; }
+.javascript .coMULTI { color:#0a0; }
+
+.php { color:#000; }
+.php .ln { color:#bbb; }
+.php .kw1 { color:#b0b; }
+.php .kw2 { color:#b0b; }
+.php .kw3 { color:#b0b; }
+.php .kw4 { color:#b0b; }
+.php .sy1 { color:#b0b; }
+.php .st0 { color:#c00; }
+.php .st_h { color:#00d; }
+.php .nu0 { color:#00d; }
+.php .co1 { color:#0a0; }
+.php .coMULTI { color:#0a0; }
