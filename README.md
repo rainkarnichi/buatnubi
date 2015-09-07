@@ -1,11 +1,13 @@
-Yellow 0.5.32
-=============
-[![Yellow](https://raw.githubusercontent.com/wiki/datenstrom/yellow/images/yellow.jpg)](http://datenstrom.se/yellow)
+Buat Nubi [Blog Archives]
+=========================
 
-Yellow is for people who make websites. [Visit the Yellow website](http://datenstrom.se/yellow).
+Blog ini dibuat dengan menggunakan flat file CMS [__Yellow__](https://github.com/datenstrom/yellow/)
 
-1. [Download Yellow and unzip it](https://github.com/datenstrom/yellow/archive/master.zip).  
-2. Copy all files to your web hosting.  
-3. Open your website in a web browser. [Learn more](https://github.com/datenstrom/yellow/wiki).
+Artikel yang diarsipkan di sini --_mungkin sebagian_--  bebas digunakan untuk keperluan apa saja.
 
-All files are licensed under [GPLv2](http://opensource.org/licenses/GPL-2.0) unless stated otherwise.
+username: `buatnubi@gmail.com`
+password: `buatnubi`
+
+Web preview: [buatnubi.esy.es](http://buatnubi.esy.es)
+
+Update terakhir: 2015.09.07

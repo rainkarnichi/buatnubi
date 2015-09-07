@@ -2,5 +2,11 @@
 Title: Sidebar
 Status: hidden
 ---
-* [Recent changes](/wiki/special:changes/)  
+__Label__
+
+* [Perubahan Terbaru](/wiki/special:changes/)  
 * [Example](/wiki/tag:example/)  
+
+__Apresiasi Sastra Indonesia__
+
+
