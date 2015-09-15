@@ -1,6 +1,5 @@
 ---
 Title: About
-Navigation: navigation-search
 ---
 A new website. 
 

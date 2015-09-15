@@ -1,0 +1,31 @@
+<?php $yellow->snippet("header") ?>
+<?php $yellow->page->setHeader("Last-Modified", $yellow->toolbox->getHttpDateFormatted(time())) ?>
+<?php $yellow->page->setHeader("Cache-Control", "no-cache, must-revalidate") ?>
+<div class="content">
+<?php $user = $email = $password = "" ?>
+<?php if($_REQUEST["status"] == "create"): ?>
+<?php $email = trim($_REQUEST["email"]); if(empty($email)) $email = "demo@demo.com"; ?>
+<?php $password = trim($_REQUEST["password"]); if(empty($password)) $password = "demo"; ?>
+<?php if($yellow->plugins->isExisting("webinterface")): ?>
+<?php $user = $yellow->plugins->get("webinterface")->users->getUserInfo($email, $password, "", "", ""); ?>
+<?php endif ?>
+<?php endif ?>
+<h1><?php echo $yellow->page->getHtml("title") ?></h1>
+<?php if(empty($user)): ?>
+<p>This page creates a user account.<p>
+<form class="user-form" action="<?php echo $yellow->page->getLocation() ?>" method="post">
+<p class="user-email"><label for="email">Email:</label><br /><input type="text" class="form-control" name="email" id="email"></p>
+<p class="user-password"><label for="password">Password:</label><br /><input type="text" class="form-control" name="password" id="password"></p>
+<input type="hidden" name="status" value="create" />
+<input type="submit" value="Create" class="btn" />
+</form>
+<?php else: ?>
+<p>
+1. Go to your Yellow installation, where the yellow.php is.<br />
+2. Open file <code>system/config/user.ini</code> and add the following line to the end:<br />
+</p>
+<p><?php echo "<code>".htmlspecialchars($user)."</code>" ?></p>
+<p><?php echo "Now you can login with email <code>".htmlspecialchars($email)."</code> and password <code>".htmlspecialchars($password)."</code>."?></p>
+<?php endif ?>
+</div>
+<?php $yellow->snippet("footer") ?>

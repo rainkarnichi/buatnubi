@@ -1,6 +1,5 @@
 ---
 Title: Home
-Navigation: navigation-search
 ---
 Your website works! 
 
