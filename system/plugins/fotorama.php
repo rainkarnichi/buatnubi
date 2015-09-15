@@ -12,13 +12,15 @@ class YellowFotorama
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
-		$this->yellow->config->setDefault("fotoramaCdn", "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/");
+		$this->yellow->config->setDefault("fotoramaCdn", "/cdn/fotorama/");
+		// Original source "https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/"
 		$this->yellow->config->setDefault("fotoramaStyle", "fotorama");
 		$this->yellow->config->setDefault("fotoramaNav", "dots");
 		$this->yellow->config->setDefault("fotoramaAutoplay", "0");
 		if(!$this->yellow->config->isExisting("jqueryCdn"))
 		{
-		   $this->yellow->config->setDefault("jqueryCdn", "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/");
+		   $this->yellow->config->setDefault("jqueryCdn", "/cdn/jquery/");
+		   // Original source "https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/"
 		}
 	}
 	

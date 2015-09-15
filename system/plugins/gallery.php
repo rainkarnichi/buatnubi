@@ -12,7 +12,8 @@ class YellowGallery
 	function onLoad($yellow)
 	{
 		$this->yellow = $yellow;
-		$this->yellow->config->setDefault("galleryPhotoswipeCdn", "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/");
+		$this->yellow->config->setDefault("galleryPhotoswipeCdn", "/cdn/photoswipe/");
+		// Original source "https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/"
 		$this->yellow->config->setDefault("galleryStyle", "photoswipe");
 	}
 	
